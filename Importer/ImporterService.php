@@ -21,8 +21,8 @@ use Symfony\Component\DependencyInjection\Attribute\TaggedIterator;
 
 final class ImporterService
 {
-    public const MAX_ROWS = 5000;
-    public const MAX_FILESIZE = '4096k';
+    public const MAX_ROWS = 999999;
+    public const MAX_FILESIZE = '16384k';
 
     /**
      * @param iterable<ImporterInterface> $importer
